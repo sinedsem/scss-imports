@@ -1,0 +1,11 @@
+@import '~sass/variables';
+
+h1 {
+  color: $clr;
+}
+
+.image {
+  height: 120px;
+  width: 120px;
+  background: url('#{$assets}/loading.svg') no-repeat center;
+}
